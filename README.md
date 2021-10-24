@@ -30,9 +30,35 @@ Note, Windows now supports SSH natively, see [here](https://docs.microsoft.com/e
 In the spirit of \*nix, create a folder called `C:\opt` and `C:\opt\bin` for all
 CLI type of tools.
 
-# Environmental Variables
+# To-Set: Environmental Variables
 * `JAVA_HOME`
 * `ORACLE_HOME`
 * `TNS_ADMIN`
 * `PYTHONPATH`
 * `VAUL_ADDR`
+
+| Environment Variable | Path |
+|----------------------|------|
+| ```%JAVA_HOME%``` | C:\Program Files\Java\jdk1.8.0_251 |
+| ```%ORACLE_BASE%``` | C:\oracle |
+| ```%ORACLE_HOME%``` | C:\oracle\instantclient_19_5 |
+| ```%TNS_ADMIN%``` | C:\oracle\instantclient_19_5\network\admin |
+| ```%VAULT_ADDR%``` | https://vault-ri.ucdmc.ucdavis.edu:8200|
+
+# Sys: Environmental Variables
+
+| Environment Variable | Path |
+|----------------------|------|
+| ```%APPDATA%``` | C:\Users\dukel\AppData\Roaming |
+| ```%LOCALAPPDATA%``` | C:\Users\dukel\AppData\Local |
+| ```%HOMEDRIVE%``` | C: |
+| ```%HOMEPATH%``` | C:\Users\dukel |
+
+
+## More info
+
+More info: https://pureinfotech.com/list-environment-variables-windows-10/
+
+# Notable Folders
+
+* `%APPDATA%`\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState

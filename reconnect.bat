@@ -7,7 +7,7 @@ ECHO  =============================================================
 ECHO                     Reconnecting Network Drives
 ECHO  =============================================================
 :: pause
-net use H: \\HSNFM01\HomeFolders\%dletran%
+net use H: \\HSNFM01\HomeFolders\%USERNAME%
 net use S: \\hshome\shared
 net use T: \\hshome\apps
 net use U: \\hshome\shared\Research\CTSC
