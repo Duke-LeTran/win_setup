@@ -56,7 +56,6 @@ CLI type of tools.
 
 
 ## More info
-
 More info: https://pureinfotech.com/list-environment-variables-windows-10/
 
 # Notable Folders
